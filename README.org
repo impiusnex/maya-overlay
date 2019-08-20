@@ -1,3 +1,5 @@
+Resurrecting this repo for those that wish to use it.
+
 * THIS REPO IS ABANDONED:
 
 I created this repo since I needed to run Maya 2012 at work. But I've switched job a while back. And since then, this repo is dead. I won't accept any patches anymore. If you fork and start maintaning somewhere else, tell (bug report or whatever) me and I'll put a link here to your repo.
@@ -9,11 +11,11 @@ ebuild will tell you the details after the install...
 * How to add it to my system?
 Merge layman (with git enabled ofc), edit the file: =/etc/layman/layman.cfg=
 
-And add =https://github.com/etu/maya-overlay/raw/master/overlay.xml= to the =overlays:= part.
+And add =https://github.com/impiusnex/maya-overlay/raw/master/overlay.xml= to the =overlays:= part.
 
 So it looks like this...
 : overlays  : http://www.gentoo.org/proj/en/overlays/repositories.xml
-:   https://github.com/etu/maya-overlay/raw/master/overlay.xml
+:   https://github.com/impiusnex/maya-overlay/raw/master/overlay.xml
 
 And then just...
 : # layman -L
@@ -23,7 +25,7 @@ And make sure to have this at the end of your /etc/make.conf:
 : # source /var/lib/layman/make.conf
 
 Or if you just need to use it quick, do it this way: 
-: # layman -f -a maya -o https://raw.github.com/etu/maya-overlay/master/overlay.xml
+: # layman -f -a maya -o https://raw.github.com/impiusnex/maya-overlay/master/overlay.xml
 
 * Resources
   - The ebuild in this repo is based on this ebuild: [[http://archives.gentoo.org/gentoo-user/msg_2dc5637ce376fdd585cb0f208e7073b8.xml][http://archives.gentoo.org/gentoo-user/msg_2dc5637ce376fdd585cb0f208e7073b8.xml]]

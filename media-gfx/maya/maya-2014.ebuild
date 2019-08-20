@@ -42,9 +42,13 @@ RDEPEND="${RDEPEND} x11-libs/libXrandr x11-libs/libXft"
 
 # Stuff I'm not sure about
 RDEPEND="${RDEPEND}
-	x11-libs/libxcb app-admin/gamin dev-libs/libgamin
-	media-libs/libquicktime media-libs/audiofile
-	sys-libs/e2fsprogs-libs media-libs/openal
+	x11-libs/libxcb
+	app-admin/gamin
+	dev-libs/libgamin
+	media-libs/libquicktime
+	media-libs/audiofile
+	sys-libs/e2fsprogs-libs
+	media-libs/openal
 
 	amd64? (
 		!bundled-libs? ( x11-libs/libXpm x11-libs/libXmu x11-libs/libXt x11-libs/libXp x11-libs/libXi x11-libs/libXext x11-libs/libX11 x11-libs/libXau x11-libs/libxcb )
