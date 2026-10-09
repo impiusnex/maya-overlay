@@ -1,6 +1,6 @@
 Resurrecting this repo for those that wish to use it.
 
-* THIS REPO IS NO LONGER ABANDONED:
+* THIS REPO IS NO LONGER MAINTAINED:
 
 I've resurected this repo with the aim to add ebuilds for Maya 2019
 
